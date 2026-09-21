@@ -16,7 +16,7 @@ public class Febre {
            
        }
        else{ 
-        System.out.println("No tens febre");
+        System.out.println("No tens febre!");
 
        }
 
