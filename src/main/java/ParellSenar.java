@@ -10,12 +10,11 @@ public class ParellSenar {
         int enter = teclat.nextInt();
 
         if (enter % 2 == 0) {
-            System.out.println("El numero es parell");
+            System.out.println("El número es parell");
             
         }
         else{
-            System.out.println("El numero es senar");
-
+            System.out.println("El número és senar");
         }
 
     
