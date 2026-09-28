@@ -9,13 +9,13 @@ public class PositiuNegatiuZero {
         int enter = teclat.nextInt();
 
         if (enter>0) {
-            System.out.println("El numero es positiu!");   
+            System.out.println("El número és positiu!");   
         }
         if (enter<0) {
             System.out.println("El número és negatiu");   
         }  
         if (enter == 0) {
-            System.out.println("Es zero");
+            System.out.println("És zero");
         }   
 
     }
