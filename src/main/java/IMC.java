@@ -26,6 +26,5 @@ public class IMC {
         } else {
             System.out.println("Classificació (OMS): Obesitat");
         }
-
     }
 }
