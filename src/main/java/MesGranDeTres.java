@@ -6,7 +6,7 @@ public class MesGranDeTres {
 
         Scanner teclat = new Scanner(System.in);
 
-        // Pedir los tres números
+        
         System.out.println("Introduceix el primer número:");
         int num1 = teclat.nextInt();
 
