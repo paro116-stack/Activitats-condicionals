@@ -11,40 +11,40 @@ public class NomDelMes {
         int mes = lector.nextInt();
         switch(mes) {
             case 1:
-                System.out.println("31 dies");
+                System.out.println("Gener");
                 break;
              case 2:
-                System.out.println("28 dies");
+                System.out.println("Febrer");
                 break;
              case 3:
-                System.out.println("31 dies");
+                System.out.println("Març");
                 break;
              case 4:
-                System.out.println("30 dies");
+                System.out.println("Abril");
                 break;
             case 5:
-                System.out.println("31");
+                System.out.println("Maig");
                 break;
             case 6:
-                System.out.println("30 dies");
+                System.out.println("Juny");
                 break;
             case 7:
-                System.out.println("31");
+                System.out.println("Juliol");
                 break;
             case 8:
-                System.out.println("31");
+                System.out.println("Agost");
                 break;
             case 9:
-                System.out.println("30 dies");
+                System.out.println("Setembre");
                 break;
             case 10:
-                System.out.println("31 dies");
+                System.out.println("Octubre");
                 break;
             case 11:
-                System.out.println("30 dies");
+                System.out.println("Novembre");
                 break;
             case 12:
-                System.out.println("31 dies");
+                System.out.println("Dessembre");
                 break;
         }
     }
