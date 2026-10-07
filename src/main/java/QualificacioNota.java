@@ -10,20 +10,30 @@ public class QualificacioNota {
         System.out.println("Introdueix una nota:");
         double nota = teclat.nextDouble();
 
-        if (nota >= 9 && nota <= 10) {
-            System.out.println("Excel·lent");
-        }
-        if (nota >= 7 && nota < 9) {
-            System.out.println("Notable");
-        }
-        if (nota >= 6 && nota < 7) {
-            System.out.println("Bé");
-        }
-        if (nota >= 5 && nota < 6) {
-            System.out.println("Suficient");
-        }
-        if (nota >= 0 && nota < 5) {
-            System.out.println("Insuficient");
+        if (nota <= 0 || nota >= 10) {
+            System.out.println("La nota ha de ser entre 0 i 10");
+                
+            }
+            else if (nota >= 9) {
+                System.out.println("Excel·lent");
+            }
+            else if (nota >= 8) {
+                System.out.println("Notable");
+            }
+            else if (nota >= 7) {
+                System.out.println("Notable");
+            }
+            else if (nota >= 6) {
+                System.out.println("Bé");
+            }
+            else if (nota >= 5) {
+                System.out.println("Suficient");
+            }
+            else{
+                System.out.println("Insuficient");
+            }
+
+            
+       
         }
     }
-}
