@@ -15,7 +15,7 @@ public class AccesDiaHora {
         DayOfWeek dia = ara.getDayOfWeek();
         int hora = ara.getHour();
 
-        // Condicionales anidadas según los requisitos
+        
         if (dia == DayOfWeek.SATURDAY) {
             System.out.println("NO pots entrar: és dissabte!");
         } else {
