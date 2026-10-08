@@ -37,9 +37,9 @@ public class PedraPaperTisora {
        
         if (jugadaUsuari.equals(jugadaOrdinador)) {
             System.out.println("Heu empatat!!");
-        } else if ((jugadaUsuari.equals("pedra") && jugadaOrdinador.equals("tisora")) ||
-                   (jugadaUsuari.equals("paper") && jugadaOrdinador.equals("pedra")) ||
-                   (jugadaUsuari.equals("tisora") && jugadaOrdinador.equals("paper"))) {
+        } else if ((jugadaUsuari.equals("pedra") || jugadaOrdinador.equals("tisora")) ||
+                   (jugadaUsuari.equals("paper") || jugadaOrdinador.equals("pedra")) ||
+                   (jugadaUsuari.equals("tisora") || jugadaOrdinador.equals("paper"))) {
             System.out.println("Has guanyat!");
         } else if (jugadaUsuari.equals("pedra") || jugadaUsuari.equals("paper") || jugadaUsuari.equals("tisora")) {
             System.out.println("Has perdut!");
