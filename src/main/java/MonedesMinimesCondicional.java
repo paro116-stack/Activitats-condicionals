@@ -15,49 +15,48 @@ public class MonedesMinimesCondicional {
             int centims = teclat.nextInt();
 
             if (centims >= 0) {
-                // Moneda de 200 cèntims (2 euros)
+               
                 int monedes = centims / 200;
                 if (monedes > 0) {
                     System.out.println(monedes + " monedes de 2 euros");
                     centims %= 200;
                 }
 
-                // Moneda de 100 cèntims (1 euro)
+               
                 monedes = centims / 100;
                 if (monedes > 0) {
                     System.out.println(monedes + " monedes d'1 euro");
                     centims %= 100;
                 }
 
-                // Moneda de 50 cèntims
+              
                 monedes = centims / 50;
                 if (monedes > 0) {
                     System.out.println(monedes + " monedes de 50 cèntims");
                     centims %= 50;
                 }
 
-                // Moneda de 20 cèntims
                 monedes = centims / 20;
                 if (monedes > 0) {
                     System.out.println(monedes + " monedes de 20 cèntims");
                     centims %= 20;
                 }
 
-                // Moneda de 10 cèntims
+                
                 monedes = centims / 10;
                 if (monedes > 0) {
                     System.out.println(monedes + " monedes de 10 cèntims");
                     centims %= 10;
                 }
 
-                // Moneda de 5 cèntims
+                
                 monedes = centims / 5;
                 if (monedes > 0) {
                     System.out.println(monedes + " monedes de 5 cèntims");
                     centims %= 5;
                 }
 
-                // Moneda de 2 cèntims
+               
                 monedes = centims / 2;
                 if (monedes > 0) {
                     String textMoneda = (monedes == 1) ? "moneda" : "monedes";
@@ -65,7 +64,8 @@ public class MonedesMinimesCondicional {
                     centims %= 2;
                 }
 
-                // Moneda de 1 cèntim
+            
+
                 monedes = centims / 1;
                 if (monedes > 0) {
                     String textMoneda = (monedes == 1) ? "moneda" : "monedes";

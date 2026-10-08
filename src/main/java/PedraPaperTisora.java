@@ -16,7 +16,7 @@ public class PedraPaperTisora {
         System.out.println("Entra pedra, paper o tisora:");
         String jugadaUsuari = teclat.nextLine().trim().toLowerCase();
 
-        // Elección aleatoria del ordenador: 0=pedra, 1=paper, 2=tisora
+        
         int opcioOrdinador = random.nextInt(3);
         String jugadaOrdinador = "";
 
@@ -34,7 +34,7 @@ public class PedraPaperTisora {
 
         System.out.println("Ordinador ha tret: " + jugadaOrdinador);
 
-        // Lógica para determinar el resultado
+       
         if (jugadaUsuari.equals(jugadaOrdinador)) {
             System.out.println("Heu empatat!!");
         } else if ((jugadaUsuari.equals("pedra") && jugadaOrdinador.equals("tisora")) ||
