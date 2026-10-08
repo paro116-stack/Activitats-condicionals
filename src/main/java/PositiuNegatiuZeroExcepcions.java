@@ -21,7 +21,7 @@ public class PositiuNegatiuZeroExcepcions {
                 System.out.println("El número és zero");
             }
         } catch (InputMismatchException e) {
-            // Se ejecuta si el usuario introduce un tipo de dato que no es un entero
+        
             System.out.println("Error: has d'introduir un número enter");
         } 
     }
